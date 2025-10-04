@@ -1,0 +1,133 @@
+User Name:Juan Solis
+
+====================================================================================================
+
+Input File:studentsDB.txt
+
+====================================================================================================
+
+   Student ID First Name   Last Name    Major Course Count
+0        7634    Mustafa     Al-Lail     CSCE            2
+1        1234   Cristina   Benavides     CSCE            3
+2        8734     Hector    Cardenas     Phil            2
+3        9187       Eric   Cervantes    Music            4
+4        4813      Vilen     Elliott     CSCE            1
+5        8743     Carlos     Delgado     Math            3
+6        7623  Alejandro      Garcia     Biol            2
+7        4293      Sofia       Garza     Math            2
+8        8344    Marshal   Moncivais      Lit            2
+9        1002       Saul       Olivo      Law            1
+10       9987      Jesus   Pachicano     Phil            0
+11       4634     Steven      Rangel      Art            1
+12       5642     Felipe       Rivas     Phil            4
+13       7886    Antonio     Rosales  History            1
+14       6450     Lorena  Santillana     Math            3
+15       5698      Edwin      Torres    Music            1
+16       7444     Khaled        Enab       PE            2
+17       5564     Elvira       Teran     CSCE            2
+
+====================================================================================================
+
+   Student ID Department  Number  Credits Grade
+0        7634       CSCE    3390        3    C+
+1        7634       Math    3365        3     B
+2        1234       CSCE    1336        5    B+
+3        1234       CSCE    1337        5    B+
+4        1234       Math    2340        3     C
+5        8734       Phil    2010        3     A
+6        8734       Phil    2020        3    B+
+7        9187       Phys    1020        5    B-
+8        9187       Phys    1030        1     A
+9        9187      Music    6789        2    B-
+10       9187      Music    9000        6    C-
+11       4813       CSCE    1336        5    B+
+12       8743       Math    2340        3    B+
+13       8743       Math    2350        4    C-
+14       8743       CSCE    1336        5     C
+15       7623       Biol    1001        5     C
+16       7623       Biol    1002        5    C+
+17       4293       Math    2320        3    A-
+18       4293       Math    2340        4     F
+19       8344    History    1000        3    B+
+20       8344        Lit    2050        3     A
+21       1002        Law    5000        4     C
+22       4634        Art    4000        2    B+
+23       5642       Phil    2010        3    A-
+24       5642       Phil    2020        3    B+
+25       5642       Math    2320        3     D
+26       5642       Math    2340        4    C+
+27       7886       CSCE    1336        5    D-
+28       6450       CSCE    1336        5    B+
+29       6450       CSCE    1337        5     A
+30       6450       CSCE    3390        3     C
+31       5698       CSCE    1336        5     A
+32       7444       CSCE    1336        5    D-
+33       7444         PE    3300        3     A
+34       5564       CSCE    1336        5     A
+
+====================================================================================================
+
+   Student ID   GPA
+0        7634  2.65
+1        1234  3.00
+2        8734  3.65
+3        9187  2.36
+4        4813  3.30
+5        8743  2.23
+6        7623  2.15
+7        4293  1.59
+8        8344  3.65
+9        1002  2.00
+10       9987  0.00
+11       4634  3.30
+12       5642  2.55
+13       7886  0.70
+14       6450  3.27
+15       5698  4.00
+16       7444  1.94
+17       5564  4.00
+
+====================================================================================================
+
+{'7634': ('CSCE', 2.65), '1234': ('CSCE', 3.0), '8734': ('Phil', 3.65), '9187': ('Music', 2.36), '4813': ('CSCE', 3.3), '8743': ('Math', 2.23), '7623': ('Biol', 2.15), '4293': ('Math', 1.59), '8344': ('Lit', 3.65), '1002': ('Law', 2.0), '9987': ('Phil', 0.0), '4634': ('Art', 3.3), '5642': ('Phil', 2.55), '7886': ('History', 0.7), '6450': ('Math', 3.27), '5698': ('Music', 4.0), '7444': ('PE', 1.94), '5564': ('CSCE', 4.0)}
+
+====================================================================================================
+
+[('1234', 'Cristina', 'Benavides', 'B+'), ('4813', 'Vilen', 'Elliott', 'B+'), ('8743', 'Carlos', 'Delgado', 'C'), ('7886', 'Antonio', 'Rosales', 'D-'), ('6450', 'Lorena', 'Santillana', 'B+'), ('5698', 'Edwin', 'Torres', 'A'), ('7444', 'Khaled', 'Enab', 'D-'), ('5564', 'Elvira', 'Teran', 'A')]
+
+====================================================================================================
+
+[('1234', 'Cristina', 'Benavides', 'C'), ('8743', 'Carlos', 'Delgado', 'B+'), ('4293', 'Sofia', 'Garza', 'F'), ('5642', 'Felipe', 'Rivas', 'C+')]
+
+====================================================================================================
+
+{'CSCE 1336', 'CSCE 3390', 'CSCE 1337'}
+
+====================================================================================================
+
+{'Math 2340', 'Math 2350', 'Math 3365', 'Math 2320'}
+
+====================================================================================================
+
+   Student ID First Name   Last Name    Major   GPA
+0        1002       Saul       Olivo      Law  2.00
+1        1234   Cristina   Benavides     CSCE  3.00
+2        4293      Sofia       Garza     Math  1.59
+3        4634     Steven      Rangel      Art  3.30
+4        4813      Vilen     Elliott     CSCE  3.30
+5        5564     Elvira       Teran     CSCE  4.00
+6        5642     Felipe       Rivas     Phil  2.55
+7        5698      Edwin      Torres    Music  4.00
+8        6450     Lorena  Santillana     Math  3.27
+9        7444     Khaled        Enab       PE  1.94
+10       7623  Alejandro      Garcia     Biol  2.15
+11       7634    Mustafa     Al-Lail     CSCE  2.65
+12       7886    Antonio     Rosales  History  0.70
+13       8344    Marshal   Moncivais      Lit  3.65
+14       8734     Hector    Cardenas     Phil  3.65
+15       8743     Carlos     Delgado     Math  2.23
+16       9187       Eric   Cervantes    Music  2.36
+17       9987      Jesus   Pachicano     Phil  0.00
+
+====================================================================================================
+

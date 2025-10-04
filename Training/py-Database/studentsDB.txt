@@ -13,4 +13,6 @@
 5642 Felipe Rivas Phil 4 Phil 2010 3 A- Phil 2020 3 B+ Math 2320 3 D Math 2340 4 C+
 7886 Antonio Rosales History 1 CSCE 1336 5 D-
 6450 Lorena Santillana Math 3 CSCE 1336 5 B+ CSCE 1337 5 A CSCE 3390 3 C
-5698 Edwin Torres Music 1 CSCE 1336 5 A 
+5698 Edwin Torres Music 1 CSCE 1336 5 A
+7444 Khaled Enab PE 2 CSCE 1336 5 D- PE 3300 3 A
+5564 Elvira Teran CSCE 2 CSCE 1336 5 A
